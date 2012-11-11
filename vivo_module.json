@@ -1,0 +1,16 @@
+{
+    "name": "VivoSampleModule",
+    "version": "0.9",
+    "type": "site",
+    "package": "vivoportal/vivo-sample-module",
+    "description": "Vivo 2 sample module demonstrating Vivo module capabilities and features",
+    "license": "BSD-3-Clause",
+    "keywords": [
+        "vivo module",
+        "vivo 2"
+    ],
+    "homepage": "http://vivoportal.org/",
+
+    "require": {
+    }
+}
