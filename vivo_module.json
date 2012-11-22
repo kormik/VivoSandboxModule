@@ -1,8 +1,8 @@
 {
-    "name": "VivoSampleModule",
+    "name": "VivoSandbox",
     "version": "0.9",
     "type": "site",
-    "package": "vivoportal/vivo-sample-module",
+    "package": "vivoportal/vivo-sandbox",
     "description": "Vivo 2 sample module demonstrating Vivo module capabilities and features",
     "license": "BSD-3-Clause",
     "keywords": [
