@@ -1,5 +1,5 @@
 <?php
-namespace VivoSandbox;
+namespace VivoSandboxModule;
 
 class Module
 {
