@@ -1,0 +1,19 @@
+<?
+// example how to add css and js from template
+$this->headLink()->appendStylesheet('/.VivoSandboxModule.resource/css/Sample.css');
+$this->headScript()->appendFile('/.VivoSandboxModule.resource/js/DefinedInTemplate.js');
+?>
+
+<div class="samplediv">
+
+SAMPLE UI COMPONENT:
+<?= isset($date)?$date:'';?>
+
+<?= isset($call)?$call:'';?>
+
+<a href="<?= $this->action('submit');?>">Link 2</a>
+
+<a href="<?= $this->action('submit', array('value1', 'value2'));?>">Link 3</a>
+
+<img src="<?= $this->resource('images/logo.png', 'VivoSandboxModule');?>" />
+</div>
