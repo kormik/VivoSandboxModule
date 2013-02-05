@@ -15,5 +15,11 @@ SAMPLE UI COMPONENT:
 
 <a href="<?= $this->action('submit', array('value1', 'value2'));?>">Link 3</a>
 
+<?= $this->actionLink('submit', 'LINK');?>
+
+<?= $this->actionUrl('subsub');?>
+
 <img src="<?= $this->resource('images/logo.png', 'VivoSandboxModule');?>" />
 </div>
+
+<input type="hidden" name="act" value="<?= $this->action('submit')?>" />
